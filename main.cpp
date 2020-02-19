@@ -38,9 +38,9 @@ public:
 int main()
 {
     vector<int> mas;
-    mas.push(1);
-    mas.push(2);
-    mas.push(3);
+    for(int i = 0; i < 1000; ++i){
+        mas.push(i*i);
+    }
 
     for(int i = 0; i < mas.size; ++i){
         cout << "Элемент № " << i  << " = " << mas[i] << endl;
